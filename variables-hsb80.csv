@@ -1,0 +1,100 @@
+Source,SrcVar,SrVar,Variable,Label
+,,,ID,HS&B:80 Student ID
+,,,SCHID,HS&B:80 School ID
+hsb8086,SCHSAMP,,SCHSAMP,High School Sampling Frame
+hsb8086,SCHREGN,,SCHREGN,High School Sampling Regions
+,,,hsregion,High School Region
+hsb8086,SCHURB,,hsurb,High School Urbanicity
+,,,hstype,High School Type
+hsb8086,RAWWT,,RAWWT,HS&B:80 Panel Selection Weight
+hsb8086,GRADE,,cohort,Cohort
+hsb8086,SEX,SEX,sex,Sex
+hsb8086,RACE,RACE,race,Race/ethnicity
+hsb8086,BB039,BB039,,Father's education
+hsb8086,BB042,BB042,,Mother's education
+hsb8086,FY55,FE20,,Father's education (1982)
+hsb8086,FY56,FE21,,Mother's education (1982)
+,,,paredu,Parental education
+hsb8086,BB101,BB101,income80,Family income in 1980
+hsb8086,FY111,,income82,Family income in 1982
+hsb8086,BB102,BB102,home80,Family owned home in high school
+hsb8086,BB096A,BB096A,,Siblings 3+ years younger
+hsb8086,BB096B,BB096B,,Siblings 1-2 years younger
+hsb8086,BB096C,BB096C,,Siblings same age
+hsb8086,BB096D,BB096D,,Siblings 1-2 years older
+hsb8086,BB096E,BB096E,,Siblings 3+ years older
+hsb8086,FY106,FE70,siblings,Number of siblings
+hsb8086,BB087A,BB087A,,Specific learning disability
+hsb8086,BB087B,BB087B,,Visual handicap
+hsb8086,BB087C,BB087C,,Hard of hearing
+hsb8086,BB087D,BB087D,,Deafness
+hsb8086,BB087E,BB087E,,Speech disability
+hsb8086,BB087F,BB087F,,Orthopedic handicap
+hsb8086,BB087G,BB087G,,Other health impairment
+hsb8086,FY103A,FE83A,,Specific learning disability (1982)
+hsb8086,FY103B,FE83B,,"Visual handicap, not corrected (1982)"
+hsb8086,FY103C,FE83C,,Hard of hearing (1982)
+hsb8086,FY103D,FE83D,,Deafness (1982)
+hsb8086,FY103E,FE83E,,Speech disability (1982)
+hsb8086,FY103F,FE83F,,Orthopedic handicap (1982)
+hsb8086,FY103G,FE83G,,Other physical disability (1982)
+,,,physdisab,Physical disability in high school
+,,,learndisab,Learning disability in high school
+hsb8086,FY2,,,High School Track (1982)
+hsb8086,BB002,BB002,hsprog,High School Track
+hsb8086,FY5A,EB005A,alg1,Took Algebra I
+hsb8086,FY5B,EB005B,alg2,Took Algebra II
+hsb8086,FY5C,EB005C,geom,Took Geometry
+hsb8086,FY5D,EB005D,trig,Took Trigonometry
+hsb8086,FY5E,EB005E,calc,Took Calculus
+hsb8086,FY5F,EB005F,physics,Took Physics
+hsb8086,FY5G,EB005G,chemistry,Took Chemistry
+hsb8086,FY5H,,biology,Took Biology
+,,,highmath,Highest math course taken
+hsb8086,FY7,BB007,gpa12,Grade 12 GPA
+hsb8086,BB007,,gpa10,Grade 10 GPA
+hsb8086,,FE31,pse82sr,Senior Post-secondary education (1982)
+hsb8086,,SE15,,Senior Attended PSE (1984)
+hsb8086,,SE18A,,Senior Institution 1 (1984)
+hsb8086,,SE18I,,Senior Degree 1 (1984)
+hsb8086,,SE18J,,Senior Degree 1 Completed (1984)
+hsb8086,,SE19A,,Senior Institution 2 (1984)
+hsb8086,,SE19I,,Senior Degree 2 (1984)
+hsb8086,,SE19J,,Senior Degree 2 Completed (1984)
+hsb8086,,SE20A,,Senior Institution 3 (1984)
+hsb8086,,SE20I,,Senior Degree 3 (1984)
+hsb8086,,SE20J,,Senior Degree 3 Completed (1984)
+,,,pse84sr,Senior Post-secondary education (1984)
+hsb8086,,TE20,,Senior Attended PSE (1986)
+hsb8086,,TE21A,,Senior Institution 1 (1986)
+hsb8086,,TE21H,,Senior Degree 1 (1986)
+hsb8086,,TE21I,,Senior Degree 1 Completed (1986)
+hsb8086,,TE22A,,Senior Institution 2 (1986)
+hsb8086,,TE22H,,Senior Degree 2 (1986)
+hsb8086,,TE22I,,Senior Degree 2 Completed (1986)
+,,,pse86sr,Senior Post-secondary education (1986)
+hsb8086,SY15,,,Sophomore Attended PSE (1984)
+hsb8086,SY18A,,,Sophomore Institution 1 (1984)
+hsb8086,SY18I,,,Sophomore Degree 1 (1984)
+hsb8086,SY18J,,,Sophomore Degree 1 Completed (1984)
+hsb8086,SY19A,,,Sophomore Institution 2 (1984)
+hsb8086,SY19I,,,Sophomore Degree 2 (1984)
+hsb8086,SY19J,,,Sophomore Degree 2 Completed (1984)
+hsb8086,SY20A,,,Sophomore Institution 3 (1984)
+hsb8086,SY20I,,,Sophomore Degree 3 (1984)
+hsb8086,SY20J,,,Sophomore Degree 3 Completed (1984)
+,,,pse84so,Sophomore Post-secondary education (1984)
+hsb8086,TY20,,,Sophomore Attended PSE (1986)
+hsb8086,TY21A,,,Sophomore Institution 1 (1986)
+hsb8086,TY21H,,,Sophomore Degree 1 (1986)
+hsb8086,TY21I,,,Sophomore Degree 1 Completed (1986)
+hsb8086,TY22A,,,Sophomore Institution 2 (1986)
+hsb8086,TY22H,,,Sophomore Degree 2 (1986)
+hsb8086,TY22I,,,Sophomore Degree 2 Completed (1986)
+,,,pse86so,Sophomore Post-secondary education (1986)
+,,,psetranso,Sophomore Post-secondary transcript degree
+,,,edattain86,Educational attainment (1986)
+hsb8086,TY41,TE41,marital86,Marital status (1986)
+hsb8086,BB085,BB085,,Height (1980)
+hsb8086,BB086,BB086,,Weight (1980)
+,,,bmi80,Body mass index (1980)

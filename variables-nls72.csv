@@ -1,0 +1,90 @@
+Source,SrcVar,Variable,Label
+,,ID,NLS:72 Student ID (NCES style)
+,,SCHID,NLS:72 School ID
+NLS7286,FINSTNO,STRATUM,NLS:72 sampling stratum
+NLS7286,STCODE,,High School State (STCODE)
+,,hsstate,High School State (FIPS)
+,,hsregion,High School Region
+NLS7286,PUBPRIV,hstype,High School Type
+,,hspub,Public high school
+NLS7286,N_SENRS,hsg12,High School Grade 12 Enrollment
+NLS7286,COLLPROX,hsprox,High School Proximity to College
+NLS7286,MINRTY,hsmin,High School Minority Group Enrollment
+NLS7286,SCHQ40,hsurb,High School Urbanicity
+NLS7286,INCOME,hsincome,High School Community Income Level
+NLS7286,COMMUNIT72,hscomsz,High School Community Size
+NLS7286,RAWWT,RAWWT,NLS:72 Panel Selection Weight
+NLS7286,FFUZIP,zip73,Zip code (1973)
+NLS7286,SFUZIP,zip74,Zip code (1974)
+NLS7286,TFUZIP,zip76,Zip code (1976)
+NLS7286,F4FUZIP,zip79,Zip code (1979)
+NLS7286,TFUSEX,,
+NLS7286,CSEX72,sex,Sex
+NLS7286,FI97,,
+NLS7286,FI98,,
+NLS7286,CRACE,race,Race/ethnicity
+NLS7286,CFAED86,,Father's education
+NLS7286,CMOED86,,Mother's education
+,,paredu,Parental education
+NLS7286,BQ90C,sibedu,Oldest sibling’s education in 1972
+NLS7286,BQ25B,,"Father’s occupation, broad"
+NLS7286,BQ25C,,"Mother’s occupation, broad"
+NLS7286,SEIBQ97,,Father’s occupation Duncan SEI
+NLS7286,SEIBQ101,,Mother’s occupation Duncan SEI
+,,parsei,Parent occupational socioeconomic index
+NLS7286,BQ93,income72,Family income in 1972
+NLS7286,BQ94B,,Newspaper
+NLS7286,BQ94C,,Dictionary
+NLS7286,BQ94D,,Encycolpedia
+NLS7286,BQ94E,,Magazines
+NLS7286,BQ94F,,Record player
+NLS7286,BQ94G,,Tape recorder
+NLS7286,BQ94H,,Color TV
+NLS7286,BQ94I,,Typewriter
+NLS7286,BQ94J,,Electric dishwasher
+NLS7286,BQ94K,,Two cars
+,,homesei72,Household item socioeconomic index
+NLS7286,SQ119A,,Older brothers
+NLS7286,SQ119B,,Younger brothers
+NLS7286,SQ120A,,Older sisters
+NLS7286,SQ120B,,Younger sisters
+,,siblings,Number of siblings
+NLS7286,SRFQ3,hstransfer,Transferred to high school
+NLS7286,BQ2,hsprog,High School Track
+NLS7286,SRFQ4CC,hsmath,Semesters of HS math
+NLS7286,SRFQ4A,hssci,Semesters of HS science
+NLS7286,BQ5,gpa12,Grade 12 GPA
+NLS7286,FQ23,,PSE attend (1973)
+NLS7286,FQ26B,,"PSE type, first school (1973)"
+NLS7286,FQ32B,,"PSE type, second school (1973)"
+NLS7286,FQ40B,,"PSE type, third school (1973)"
+NLS7286,FQ42,,Working toward degree (1973)
+,,pse73,Post-secondary education (1973)
+NLS7286,SQ9,,PSE attend (1974)
+NLS7286,SQ12,,"PSE type, first school (1974)"
+NLS7286,SQ34,,"PSE type, second school (1974)"
+NLS7286,SQ66BA,,Earned certificate (1974)
+NLS7286,SQ66CA,,Earned license (1974)
+NLS7286,SQ66D,,Earned voc degree (1974)
+NLS7286,SQ66E,,Earned assoc degree (1974
+NLS7286,SQ66F,,Earned BA (1974)
+NLS7286,SQ66GA,,Earned other (1974)
+,,pse74,Post-secondary education (1974)
+,,psetrans,Post-secondary transcript degree
+NLS7286,TQ48CA,,Voc degree attainment (1976)
+NLS7286,TQ48DA,,Assoc degree attainment (1976)
+NLS7286,TQ49A,edattain76,Educational attainment (1976)
+NLS7286,FT76CA,,Voc degree attainment (1979)
+NLS7286,FT76DA,,Assoc degree attainment (1979)
+NLS7286,FT67,edattain79,Educational attainment (1979)
+NLS7286,FI29,edattain86,Educational attainment (1986)
+NLS7286,ACT579,employ79,Employment status (1979)
+NLS7286,FI3A,employ86,Employment status (1986)
+NLS7286,FT12AD,,Occupation (1979)
+NLS7286,FI7A,,Occupation (1986)
+NLS7286,SEIF12,occsei79,Occupation socioeconomic index (1979)
+,,occsei86,Occupation socioeconomic index (1986)
+NLS7286,FT165,marital79,Marital status (1979)
+NLS7286,FI77,marital86,Marital status (1986)
+NLS7286,BQ83,physdisab,Limiting physical condition
+NLS7286,BQ17K,earlyhealth,Ill health interfered with education
