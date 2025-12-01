@@ -189,9 +189,9 @@ recode race (7=1 /*White*/) (2=2 /*Black*/) (3/5=3 /*Hispanic*/)           ///
 * Fill in missing from F5
 label list FI98F
 label list FI97F
-replace race = 1 if missing(race) & FI98 == 2 & !inlist(FI97, 2, 5)   // White
-replace race = 2 if missing(race) & FI98 == 1 & !inlist(FI97, 2, 5)   // Black
-replace race = 3 if missing(race) & inlist(FI97, 2, 5)             // Hispanic
+replace race = 1 if missing(race) & FI98 == 2 & !inrange(FI97, 2, 5)  // White
+replace race = 2 if missing(race) & FI98 == 1 & !inrange(FI97, 2, 5)  // Black
+replace race = 3 if missing(race) & inrange(FI97, 2, 5)            // Hispanic
 
 table FI98 FI97 if missing(race), missing
 replace race = 4 if missing(race)                       // Other (and unknown)
