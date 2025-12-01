@@ -16,6 +16,8 @@ archived historical data from 1972-1986 are available publicly from the
 (ICPSR). The code in this repository cleans the ICPSR data into a more
 user-friendly format.
 
+The processed Stata datasets may be [downloaded from GitHub](https://github.com/EdSHARe-proj/edshare-public/releases).
+
 
 ## Source Data
 
