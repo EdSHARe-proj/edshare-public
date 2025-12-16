@@ -56,9 +56,9 @@ The files `produce-hsb80-common.do` and `produce-nls72-common.do` further
 process the data to clean several commonly used variables, producing the
 Stata datasets `hsb80-common.dta` and `nls72-common.dta`. Refer to the
 documentation for the
-[HS&B:80 Common Variables Public Dataset](https://docs.google.com/document/d/1iUsJElR7bbrYwilYWguV1ptPE1cuYW0HqArQTLo63oo/edit?usp=sharing)
+[HS&B:80 Common Variables Public Dataset](https://edshareproject.org/files/hsb80_common_variables_public_dataset.pdf)
 and the
-[NLS:72 Common Variables Public Dataset](https://docs.google.com/document/d/1kBYwwHb1FvdFlVlmsuMD0yw3Hqn0yLC2dH-tQ58tbSs/edit?usp=sharing)
+[NLS:72 Common Variables Public Dataset](https://edshareproject.org/files/nls72_common_variables_public_dataset.pdf)
 for more information about the contents.
 
 
