@@ -1,6 +1,6 @@
 /* High School & Beyond 1980: Clean public data files
    Michael J. Culbertson
-   October 30, 2025
+   March 17, 2026
    
    Data sources:
      ICPSR 07896: HS&B:80 Base year (1980)
@@ -38,7 +38,10 @@ clear all
 set maxvar 6000
 
 * Data version
-global dtaversion "2025-10-30"
+global dtaversion "2026-03-17"
+
+* Data note
+global dtanote "For more information: https://github.com/EdSHARE-proj/edshare-public#edshare-public-datasets"
 
 
 
@@ -80,6 +83,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Base Year [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID
@@ -110,6 +114,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80/82 Sophomores [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID
@@ -158,6 +163,7 @@ label define GRADE 2 "SENIOR", modify
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80/86 Panel [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID
@@ -185,6 +191,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80/82 Schools [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort SCHID
@@ -240,6 +247,7 @@ label variable cohort "Cohort"
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Teacher Comment [$dtaversion]"
 char _dta[version] "$dtaversion"
 order ID TID SCHID STUDNT cohort TEACHID
@@ -268,9 +276,10 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Sophomore High School Transcripts [$dtaversion]"
 char _dta[version] "$dtaversion"
-sort ID TRANSNUM
+sort ID
 compress
 save "$outdir/hsb80-hs-trans-so.dta", replace
 
@@ -293,6 +302,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Sophomore High School Transcript Courses [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID
@@ -318,6 +328,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Senior Post-secondary Transcripts [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID TRANSNUM
@@ -341,6 +352,7 @@ do "$ICPSR_08896/DS0006/08896-0006-Supplemental_syntax.do"
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Sophomore Post-secondary Transcripts [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID TRANSNUM
@@ -382,6 +394,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Senior Post-secondary Courses [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID TRANSNUM TERMNUM
@@ -411,6 +424,7 @@ do "$ICPSR_08896/DS0005/08896-0005-Supplemental_syntax.do"
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "HS&B:80 Sophomore Post-secondary Courses [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID TRANSNUM TERMNUM

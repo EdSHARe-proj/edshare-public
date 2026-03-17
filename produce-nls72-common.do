@@ -44,7 +44,10 @@ clear all
 set maxvar 6000
 
 * Data version
-global dtaversion "2025-10-30"
+global dtaversion "2026-03-17"
+
+* Data note
+global dtanote "For more information: https://github.com/EdSHARE-proj/edshare-public#edshare-public-datasets"
 
 
 
@@ -572,6 +575,7 @@ order `vars'
 * Clean up
 sort ID
 notes drop _dta
+notes: "$dtanote"
 compress
 
 label data "NLS:72 Common Variables [$dtaversion]"

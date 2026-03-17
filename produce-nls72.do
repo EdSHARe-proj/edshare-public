@@ -1,6 +1,6 @@
 /* National Longitudinal Study of class of 1972: Clean public data files
    Michael J. Culbertson
-   October 30, 2025
+   March 17, 2026
    
    Data sources:
      ICPSR 08085: NLS:72
@@ -27,7 +27,10 @@ clear all
 set maxvar 6000
 
 * Data version
-global dtaversion "2025-10-30"
+global dtaversion "2026-03-17"
+
+* Data note
+global dtanote "For more information: https://github.com/EdSHARE-proj/edshare-public#edshare-public-datasets"
 
 
 
@@ -83,6 +86,7 @@ foreach v of varlist SEI* {
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "NLS:72 Panel [$dtaversion]"
 char _dta[version] "$dtaversion"
 sort ID
@@ -110,6 +114,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "NLS:72 Post-secondary Transcripts [$dtaversion]"
 char _dta[version] "$dtaversion"
 order ID TRANSNUM
@@ -156,6 +161,7 @@ recode_missing `vars'
 
 
 ** Save the dataset
+notes: "$dtanote"
 label data "NLS:72 Post-secondary Courses [$dtaversion]"
 char _dta[version] "$dtaversion"
 order ID TRANSNUM
