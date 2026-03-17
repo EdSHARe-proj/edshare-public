@@ -1,6 +1,6 @@
 /* HS&B:80 Common Variables
    Michael J. Culbertson
-   October 30, 2025
+   March 17, 2026
    
    Data sources:
      hsb8086.dta: HS&B:80 base year to third follow-up data (panel sample)
@@ -118,15 +118,17 @@ gen sr = cohort == 2  // Seniors
 
 * Recode
 label list BB039
-label define edatt  1 "HS or less"  2 "Some college" ///
+label define pared  0 "Less than HS"  1 "High School"  2 "Some College"    ///
     3 "Two-year Degree"  4 "Four-year Degree"  5 "Graduate Degree"
-recode BB039 BB042 FY55 FY56 (2/3 = 1) (4/7 = 2) (8 = 4) (9/10 = 5) (else = .)
+label define edatt  1 "HS or less"  2 "Some college"                       ///
+    3 "Two-year Degree"  4 "Four-year Degree"  5 "Graduate Degree"
+recode BB039 BB042 FY55 FY56 (2=0) (3=1) (4/7=2) (8=4) (9/10=5) (else = .)
 
 * Get highest parental education from 1980, fill in missing with 1982
 egen paredu = rowmax(BB039 BB042)
 egen paredu82 = rowmax(FY55 FY56)  // == FE20 FE21 for seniors
 replace paredu = paredu82 if missing(paredu)
-label values paredu edatt
+label values paredu pared
 
 
 ** income80: Family income in 1980 (BB101)

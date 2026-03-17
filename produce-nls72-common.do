@@ -234,13 +234,15 @@ table marital86, missing
 
 * Recode
 label list CFAED86F
-label define edatt  1 "HS or less"  2 "Some college" ///
+label define pared  0 "Less than HS"  1 "High School"  2 "Some College"    ///
     3 "Two-year Degree"  4 "Four-year Degree"  5 "Graduate Degree"
-recode CFAED86 CMOED86 (1/2 = 1) (3 = 2) (4 = 4) (5 = 5) (91/99 = .)
+label define edatt  1 "HS or less"  2 "Some college"                       ///
+    3 "Two-year Degree"  4 "Four-year Degree"  5 "Graduate Degree"
+recode CFAED86 CMOED86 (1=0) (2=1) (3=2) (4=4) (5=5) (91/99 = .)
 * Get highest parental education
 egen paredu = rowmax(CFAED86 CMOED86)
 
-label values paredu edatt
+label values paredu pared
 table paredu, missing
 
 
