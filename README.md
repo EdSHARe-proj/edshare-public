@@ -67,7 +67,7 @@ for more information about the contents.
 In addition to the `do` files listed above, this repository includes the
 following files:
 - `paths.do`: File paths for data and metadata (**Customize these for your system.**)
-- `sei-scores.csv`: Otid Dudley Duncan occupational socioeconomic index scores by 1970 Census occupation classification codes, from [Appendix K](https://www.icpsr.umich.edu/web/ICPSR/studies/8085/datadocumentation) of the NLS:72 documentation
+- `sei-scores.csv`: Otis Dudley Duncan occupational socioeconomic index scores by 1970 Census occupation classification codes, from [Appendix K](https://www.icpsr.umich.edu/web/ICPSR/studies/8085/datadocumentation) of the NLS:72 documentation
 - `recode_nl7286.ado`: Stata program to normalize the coding system for NLS:72 (refer to the section on recoding NLS:72, below, for details)
 - `recode_missing.ado`: Stata program to remove missing value reserve codes
 - `*.dct`: Stata dictionaries for the ICPSR data files
