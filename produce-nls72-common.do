@@ -1,6 +1,6 @@
 /* NLS:72 Common Variables
    Michael J. Culbertson
-   October 30, 2025
+   March 17, 2026
    
    Data sources:
      nls7286.dta: NLS:72 student data through fifth follow up
@@ -465,6 +465,8 @@ replace edattain79 = 3 if (missing(edattain79) | edattain79 < 3) &         ///
 * Note: F5 attainment item does not include associate's degree
 label list FI29F
 recode edattain86 (1/2=1) (3/6=2) (7=4) (8/9=5) (else=.)
+label list FI18F
+replace edattain86 = 1 if FI18 == 3  // No post-secondary => HS or less
 
 
 label values edattain* edatt
