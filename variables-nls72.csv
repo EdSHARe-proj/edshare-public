@@ -53,6 +53,9 @@ NLS7286,SRFQ3,hstransfer,Transferred to high school
 NLS7286,BQ2,hsprog,High School Track
 NLS7286,SRFQ4CC,hsmath,Semesters of HS math
 NLS7286,SRFQ4A,hssci,Semesters of HS science
+NLS7286,SCMATSC,SCMATSC,Grade 12 Math scaled score
+NLS7286,SCVOCSC,SCVOCSC,Grade 12 Vocabulary scaled score
+NLS7286,SCRDSC,SCRDSC,Grade 12 Reading scaled score
 NLS7286,BQ5,gpa12,Grade 12 GPA
 NLS7286,FQ23,,PSE attend (1973)
 NLS7286,FQ26B,,"PSE type, first school (1973)"
